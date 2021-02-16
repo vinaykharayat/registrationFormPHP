@@ -1,0 +1,42 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 16-Feb-2021, 11:46:57 AM
+    Author     : testing
+*/
+
+.invalid{
+    color: red;
+}
+.valid{
+    color: green;
+}
+#basicInformation{
+    display: flex;
+    width: 900px;
+}
+#basicLabel{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+#basicLabel > label{
+    padding: 1.2vh;
+}
+
+#basicInput{
+    display: flex;
+    flex-direction: column;
+}
+
+#basicInput input{
+    width: 250px;
+}
+
+#basicInput > div{
+    display: flex;
+}
